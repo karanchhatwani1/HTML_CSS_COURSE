@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nested Layouts</title>
+
+        <style>
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 1px;
+            }
+
+            .horizontal_div1{
+                display: inline-block;
+                padding: 5px;
+                
+            }
+
+            .dp_img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            .horizontal_div2{
+                display: inline-block;
+                width: 180px;
+                padding: 5px;
+            }
+
+            .img_title{
+                font-weight: bold;
+            }
+
+            .img_desc1, 
+            .img_desc2{
+                font-size: 15px;
+                color: rgb(96, 96, 96);
+            }
+
+            .horizontal_div3{
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                align-items: center;
+                vertical-align: middle;
+                justify-content: center;
+            }
+
+            .follow_btn{
+                padding: 6px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 15px;
+                color: white;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div class="horizontal_div1">
+                <img class="dp_img" src="Thumbnails/Thumbnail1.jfif">
+            </div>
+            <div class="horizontal_div2">
+                <p class="img_title">Oliver</p>
+                <p class="img_desc1">the cat</p>
+                <p class="img_desc2">Popular</p>
+            </div>
+            <div class="horizontal_div3">
+                <button class="follow_btn">Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
