@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nested Layout Advance</title>
+
+        <style>
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 1px;
+            }
+
+            .horizontal_div1{
+                padding: 10px;
+                display: inline-block;
+            }
+
+            .horizontal_div2{
+                width: 120px;
+                padding: 10px;
+                display: inline-block;
+            }
+            
+            .horizontal_div3{
+                padding: 10px;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .dp_img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            .follow_btn{
+                padding: 6px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 15px;
+                color: white;
+                background-color: aqua;
+            }
+
+            .img_title{
+                font-weight: bold;
+            }
+
+            .img_desc1, 
+            .img_desc2{
+                font-size: 15px;
+                color: rgb(96, 96, 96);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="vertical_div1">
+            <div class="horizontal_div1">
+                <img class="dp_img" src="Thumbnails/Thumbnail1.jfif">
+            </div>
+            <div class="horizontal_div2">
+                <p class="img_title">Oliver</p>
+                <p class="img_desc1">the cat</p>
+                <p class="img_desc2">Popular</p>
+            </div>
+            <div class="horizontal_div3">
+                <button class="follow_btn">Follow</button>
+            </div>
+        </div>
+        <div>
+            <div class="horizontal_div1">
+                <img class="dp_img" src="Thumbnails/Thumbnail1.jfif">
+            </div>
+            <div class="horizontal_div2">
+                <p class="img_title">Oliver</p>
+                <p class="img_desc1">the cat</p>
+                <p class="img_desc2">Popular</p>
+            </div>
+            <div class="horizontal_div3">
+                <button class="follow_btn">Follow</button>
+            </div>
+        </div>
+        <div>
+            <div class="horizontal_div1">
+                <img class="dp_img" src="Thumbnails/Thumbnail1.jfif">
+            </div>
+            <div class="horizontal_div2">
+                <p class="img_title">Oliver</p>
+                <p class="img_desc1">the cat</p>
+                <p class="img_desc2">Popular</p>
+            </div>
+            <div class="horizontal_div3">
+                <button class="follow_btn">Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
