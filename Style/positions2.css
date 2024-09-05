@@ -1,0 +1,39 @@
+.shirt {
+  width: 300px;
+  height: 350px;
+}
+
+.parent {
+  position: relative;
+  width: 300px;
+  height: 350px;
+}
+
+.percent {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+}
+
+.cart_div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_to_cart {
+  background-color: white;
+  padding: 8px;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 100px;
+}
