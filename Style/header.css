@@ -6,7 +6,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 80px;
+  height: 76px;
+  z-index: 100;
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .header_child1{
@@ -17,15 +19,15 @@
 }
 
 .menu{
-  width: 26px;
-  height: 30px;
+  width: 22px;
+  height: 26px;
   margin-left: 30px;
 }
 
 .youtube_icon{
-  width: 135px;
-  height: 28px;
-  margin-left: 30px;
+  width: 120px;
+  height: 76px;
+  margin-left: 24px;
 }
 
 .header_child2{
@@ -40,7 +42,7 @@
 }
 
 .search{
-  height: 42px;
+  height: 39px;
   width: 0;
   flex: 1;
   border: 1px solid rgb(190, 190, 190);
@@ -55,8 +57,8 @@
 }
 
 .search_button{
-  height: 45px;
-  width: 70px;
+  height: 43px;
+  width: 69px;
   margin-left: -1px;
   border-radius: 0px;
   border: 1px solid rgb(190, 190, 190);
@@ -68,8 +70,8 @@
 }
 
 .voice_button{
-  height: 45px;
-  width: 45px;
+  height: 43px;
+  width: 43px;
   margin-left: -1px;
   border: none;
   border-radius: 50%;
@@ -78,8 +80,8 @@
 }
 
 .voice_icon{
-  height: 20px;
-  width: 20px;
+  height: 19px;
+  width: 19px;
 }
 
 .header_child3{
@@ -93,13 +95,13 @@
 }
 
 .shorts{
-  height: 25px;
-  width: 25px;
+  height: 24px;
+  width: 24px;
 }
 
 .apps{
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
 }
 
 .notify_div{
@@ -121,12 +123,13 @@
 }
 
 .notification{
-  height: 25px;
-  width: 25px;
+  height: 22px;
+  width: 22px;
 }
 
 .dp{
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
+
